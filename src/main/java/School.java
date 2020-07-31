@@ -92,6 +92,14 @@ public class School {
         return courses;
     }
 
+    public static HashMap<String, Teacher> getTeachers() {
+        return teachers;
+    }
+
+    public static HashMap<String, Student> getStudents() {
+        return students;
+    }
+
     public static boolean ifStudentExists(String id) {
         return students.containsKey(id);
     }

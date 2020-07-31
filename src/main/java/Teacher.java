@@ -1,4 +1,8 @@
 public class Teacher extends Staff {
+
+    /**
+     * Create Teacher object. It inherits the Staff class
+     */
     private String id;
     private String course;
 

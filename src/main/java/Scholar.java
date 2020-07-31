@@ -1,4 +1,8 @@
 public class Scholar {
+
+    /**
+     * Create Scholar object
+     */
     private String id;
     private String name;
     private String course;

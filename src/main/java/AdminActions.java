@@ -1,5 +1,9 @@
 public interface AdminActions {
-    void admit(Applicant applicant) throws InvalidAgeException;
+    /**
+     * Interface which the Principal implements
+     * @param applicant, applicant, id
+     */
+    void admit(Applicant applicant);
 
     void admit(Teacher teacher);
 
